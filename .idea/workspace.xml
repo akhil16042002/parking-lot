@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="89b29953-52d2-421c-9aae-233b4336c89e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/groww/bootcamp/parking/ParkingLot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/groww/bootcamp/parking/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/groww/bootcamp/parking/Vehicle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aOSvkqkvrXuQGcNogaCDDE3tey" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "JUnit.ParkingLotTest.executor": "Run",
+    "JUnit.ParkingLotTest.expectNoTokenWhenVehicleIsParkedAndCapacityIsFull.executor": "Run",
+    "JUnit.ParkingLotTest.expectTokenWhenVehicleIsParked.executor": "Run",
+    "JUnit.ParkingLotTest.expectVehicleWhenTokenIsGiven.executor": "Run",
+    "JUnit.ParkingTest.executor": "Run",
+    "JUnit.RectangleTest.executor": "Run",
+    "JUnit.RectangleTest.expectAreaToBe30GivenLength6AndBreadth5.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "full.screen.before.presentation.mode": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/akhilke/IdeaProjects/rectangle/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="in.groww.bootcamp.parking" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="in.groww.bootcamp.parking" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="in.groww.bootcamp.parking" />
+      <recent name="in.groww.bootcamp.rectangle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ParkingLotTest">
+    <configuration name="ParkingLotTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rectangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.groww.bootcamp.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.groww.bootcamp.parking" />
+      <option name="MAIN_CLASS_NAME" value="in.groww.bootcamp.parking.ParkingLotTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.expectNoTokenWhenVehicleIsParkedAndCapacityIsFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rectangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.groww.bootcamp.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.groww.bootcamp.parking" />
+      <option name="MAIN_CLASS_NAME" value="in.groww.bootcamp.parking.ParkingLotTest" />
+      <option name="METHOD_NAME" value="expectNoTokenWhenVehicleIsParkedAndCapacityIsFull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.expectTokenWhenVehicleIsParked" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rectangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.groww.bootcamp.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.groww.bootcamp.parking" />
+      <option name="MAIN_CLASS_NAME" value="in.groww.bootcamp.parking.ParkingLotTest" />
+      <option name="METHOD_NAME" value="expectTokenWhenVehicleIsParked" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParkingLotTest.expectVehicleWhenTokenIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rectangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.groww.bootcamp.parking.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.groww.bootcamp.parking" />
+      <option name="MAIN_CLASS_NAME" value="in.groww.bootcamp.parking.ParkingLotTest" />
+      <option name="METHOD_NAME" value="expectVehicleWhenTokenIsGiven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rectangle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="in.groww.bootcamp.rectangle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="in.groww.bootcamp.rectangle" />
+      <option name="MAIN_CLASS_NAME" value="in.groww.bootcamp.rectangle.RectangleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ParkingLotTest" />
+        <item itemvalue="JUnit.ParkingLotTest.expectVehicleWhenTokenIsGiven" />
+        <item itemvalue="JUnit.ParkingLotTest.expectNoTokenWhenVehicleIsParkedAndCapacityIsFull" />
+        <item itemvalue="JUnit.ParkingLotTest.expectTokenWhenVehicleIsParked" />
+        <item itemvalue="JUnit.RectangleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.21-corretto-11.0.21-f644763e9732-e2c057a1" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89b29953-52d2-421c-9aae-233b4336c89e" name="Changes" comment="" />
+      <created>1704188365648</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704188365648</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/in/groww/bootcamp/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
