@@ -2,27 +2,30 @@ package in.groww.bootcamp.parking;
 
 import java.util.HashMap;
 import java.util.Optional;
+import java.util.UUID;
+
+import static java.time.LocalDateTime.now;
 
 class ParkingLot {
     private final int capacity;
-    HashMap<Token, Vehicle> tokenToVehicle;
+    HashMap<UUID, Vehicle> vehicleByTokenId;
 
     ParkingLot(int capacity) {
         this.capacity = capacity;
-        this.tokenToVehicle = new HashMap<>();
+        this.vehicleByTokenId = new HashMap<>();
     }
 
     Optional<Token> park(Vehicle vehicle) {
-        if (tokenToVehicle.size() >= capacity) {
+        if (vehicleByTokenId.size() >= capacity) {
             return Optional.empty();
         }
-        Token token = new Token() {};
-        tokenToVehicle.put(token, vehicle);
+        Token token = new Token(UUID.randomUUID(), vehicle, now());
+        vehicleByTokenId.put(token.id(), vehicle);
         return Optional.of(token);
     }
 
-    Optional<Vehicle> unPark(Token token) {
-        Vehicle removedVehicle = tokenToVehicle.remove(token);
-        return Optional.of(removedVehicle);
+    Optional<Vehicle> unPark(UUID tokenId) {
+        Vehicle removedVehicle = vehicleByTokenId.remove(tokenId);
+        return Optional.ofNullable(removedVehicle);
     }
 }

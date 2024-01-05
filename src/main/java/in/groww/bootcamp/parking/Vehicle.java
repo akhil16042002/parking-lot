@@ -1,3 +1,3 @@
 package in.groww.bootcamp.parking;
 
-interface Vehicle {}
+record Vehicle(String name, String licenseNumber) {}
